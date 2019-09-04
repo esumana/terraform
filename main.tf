@@ -6,9 +6,9 @@ resource "azurerm_resource_group" "test" {
   name    = "testResourceGroup1"
   location  = "West Europe"
 
-  tags {
+  tags = {
     environment = "demo"
-    build       = "demo1"
+    build = "demo1"
   }
 }
 
