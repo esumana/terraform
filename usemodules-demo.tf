@@ -12,7 +12,7 @@ variable "vm_size" {
 
 # Create a resource group
 resource "azurerm_resource_group" "rg" {
-    name     = "myResourceGroup"
+    name     = "myResourceGroup0509"
     location = "${var.location}"
 }
 
