@@ -1,3 +1,7 @@
+provider "azurerm" {
+  version = ">= 1.1.0"
+}
+
 # declare variables and defaults
 variable "location" {}
 variable "environment" {
