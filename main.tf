@@ -2,6 +2,10 @@ provider "azurerm" {
   version = "~> 1.32"
 }
 
+provider "random" {
+  version = "~> 1.0"
+}
+
 # declare variables and defaults
 variable "location" {}
 variable "environment" {
